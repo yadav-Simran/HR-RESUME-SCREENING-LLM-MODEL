@@ -12,18 +12,8 @@ def main():
     load_dotenv()
 
     st.set_page_config(page_title="Resume Screening Assistance 🕵️‍♀️")
-    c30, c31, c32 = st.columns([1,6,20])
-
-    with c30:
-
-        st.caption("")
-
-        st.image("gif/eduwis-preschool.gif",width=125)
-
-    with c32:
-
-        st.title("HR - Resume Screening")
-    #st.title("HR - Resume Screening Assistance")
+    
+    st.title("HR - Resume Screening Assistance")
     
     # st.subheader("I can help you in resume screening process")
     
