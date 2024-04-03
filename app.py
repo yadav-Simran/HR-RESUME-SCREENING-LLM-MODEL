@@ -12,7 +12,19 @@ def main():
     load_dotenv()
 
     st.set_page_config(page_title="Resume Screening Assistance 🕵️‍♀️")
-    st.title("HR - Resume Screening Assistance")
+    c30, c31, c32 = st.columns([1,6,20])
+
+    with c30:
+
+        st.caption("")
+
+        st.image("gif/eduwis-preschool.gif",width=125)
+
+    with c32:
+
+        st.title("HR - Resume Screening")
+    #st.title("HR - Resume Screening Assistance")
+    
     # st.subheader("I can help you in resume screening process")
     
     st.markdown("<div style='text-align: center;'>" "<h6>Please paste the 'Job Description' here</h3>" "</div>", unsafe_allow_html=True)
@@ -75,6 +87,7 @@ def main():
                     
         left_column1, center_column1, right_column1 = st.columns([5, 8, 5])
         with center_column1:
+            st.image("gif/curiouspiyuesh-piyueshmodi.gif")
             st.success("Hope I was able to save your time❤️")
 
 
