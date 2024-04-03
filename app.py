@@ -26,7 +26,7 @@ def main():
         document_count = st.selectbox("Select the number of 'RESUMES' to return", options=range(1, max_resumes))
     left_column, center_column, right_column = st.columns([5, 5, 5])
     with center_column:
-        submit=st.button("Analyze the resumes")
+        submit=st.button("Analyze the Resumes")
         
     if submit and pdf:
         with st.spinner('Processing the resumes'):
