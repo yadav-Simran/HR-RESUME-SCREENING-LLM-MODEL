@@ -6,6 +6,7 @@ python-dotenv
 unstructured
 pinecone-client
 pypdf
+pypdf
 sentence-transformers
 langchain_openai
 langchain_pinecone
