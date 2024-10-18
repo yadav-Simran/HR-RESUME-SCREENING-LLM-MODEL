@@ -8,7 +8,7 @@ https://github.com/yadav-Simran/HR-RESUME-SCREENING-LLM-MODEL/assets/123407453/3
 
 # Resume Screening Assistance App
 
-This application streamlines the resume screening process for HR professionals using the power of AI and Langchain.
+This application streamlines the resume screening process for HR professionals using the power of AI and Langchain. The power of vectorDB is commendable. used Pinecone vector database.
 
 ## Features:
 - **Job Description Analysis:** Paste the job description to identify key skills and requirements.
