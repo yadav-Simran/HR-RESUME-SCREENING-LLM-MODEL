@@ -7,7 +7,7 @@ from langchain.vectorstores import Pinecone, Chroma
 from langchain_openai import ChatOpenAI
 from langchain.chains.summarize import load_summarize_chain
 from langchain.llms import HuggingFaceHub
-from langchain_pinecone import PineconeVectorStore
+from langchain_pinecone import PineconeVectorStore 
 
 import time
 
