@@ -2,7 +2,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from utils import *
 import uuid
-import os
+
 
 if 'unique_id' not in st.session_state:
     st.session_state['unique_id'] =''
